@@ -35,7 +35,7 @@ export default {
 }
 </script>
 <style lang="css" scoped>
-
+  /* 样式使用的是bootstrap的样式 */
 </style>
 
 

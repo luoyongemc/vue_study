@@ -18,7 +18,7 @@ export default new VueRouter({
            component: Home,
            children:[
                {
-                   path: 'news',
+                   path: 'news', //一定不能写“/”
                    component: News
                },
                {

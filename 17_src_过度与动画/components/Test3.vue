@@ -3,7 +3,7 @@
     <button @click="isShow = !isShow">
       显示/隐藏
     </button>
-    <!--transition 只能包裹一个元素而transition-group可以包含多个元素-->
+    <!--transition 只能包裹一个元素而transition-group可以包含多个元素   第三方库-->
     <transition-group
         appear
         name="animate__animated animate__bounce"

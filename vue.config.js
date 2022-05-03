@@ -19,7 +19,7 @@ module.exports = {
             '/api': {
                 target: 'http://localhost:5001',
                 ws: true, //用于支持websocket
-                changeOrigin: true, //用于控制请求头中host的值
+                changeOrigin: true, //用于控制请求头中host的值   为true时为5001  为false时是8080
                 pathRewrite:{
                     //把请求中含有的api替换成空字符串
                     '^/api': '',

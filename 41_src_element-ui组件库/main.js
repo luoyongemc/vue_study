@@ -11,7 +11,7 @@ import App from './App';
 //使用element ui插件库
 // Vue.use(ElementUI);
 
-//按需引入
+//按需引入    连同babel.config.js配置
 import { Button, Input, Row, DatePicker } from 'element-ui';
 Vue.use(Button);
 Vue.use(Input);

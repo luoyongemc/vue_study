@@ -35,7 +35,7 @@ const router = new VueRouter({
                        isAuth: true,
                        title: '新闻'
                    },
-                   //独享路由守卫
+                   //独享路由守卫    某一个路由独享的守卫
                    beforeEnter(to,from,next){
                        const { isAuth } = to.meta;
                        if(isAuth){
