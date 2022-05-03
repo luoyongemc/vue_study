@@ -19,7 +19,7 @@ export default {
          return {
            get(){
               console.log(`从myRef这个容器读取数据,data:${value}`);
-              track(); //通知追踪value的变化(跟getter商量一下让它明确你这个value是有用的)
+              track(); //通知Vue追踪value的变化(跟getter商量一下让它明确你这个value是有用的)
               return value; //读取的时候就会调用get
            },
            set(nv){

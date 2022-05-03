@@ -1,6 +1,7 @@
 <template>
   <div>
     <button @click="isShow = true">点我弹个窗</button>
+    <!-- to属性可以直接写html标签 body html head-->
     <teleport to="body">
       <div class="mask" v-if="isShow">
         <div class="dialog">
